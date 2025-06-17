@@ -67,6 +67,11 @@ percent_similarity_kc
 # COMMAND ----------
 
 # MAGIC %md
+# MAGIC 18% similarity
+
+# COMMAND ----------
+
+# MAGIC %md
 # MAGIC ###Hallmarks
 
 # COMMAND ----------
@@ -177,6 +182,11 @@ common_tcell_react_contrary
 
 percent_similarity_tcell_react <- nrow(common_tcell_react)/rows * 100
 percent_similarity_tcell_react
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC 0% similarity
 
 # COMMAND ----------
 
