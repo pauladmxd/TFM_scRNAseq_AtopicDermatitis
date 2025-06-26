@@ -1,4 +1,4 @@
-# Batch-Adjusted Joint Analysis of scRNA-seq Datasets Reveals Underexplored Pathways in Atopic Dermatitis
+# Integrated Analysis of scRNA-seq Datasets Reveals Underexplored Pathways in Atopic Dermatitis
 This repository contains the notebooks for the joint analysis of multiple single-cell RNA-sequencing datasets related to atopic dermatitis (AD). The goal was to identify conserved disease signatures across patient cohorts and uncover cell-type specific pathways and gene expression patterns.
 
 ## Repository Structure
