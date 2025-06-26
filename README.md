@@ -8,21 +8,24 @@ This repository contains the notebooks for the joint analysis of multiple single
       Notebooks related to the downloading of the datasets and their preprocessing for cell type homogeneization
 
 ##### 01.LvsHC_findmarkers
-      Notebooks related to the analysis (Differential Expression Analysis (DEA) and Gene Set Enrichment Analysis (GSEA)) of the datasets independently using the FindAllMarkers approach.
+      Notebooks related to the analysis (Differential Expression Analysis (DEA) and Gene Set Enrichment Analysis (GSEA)) of the datasets independently using the FindAllMarkers approaches: MAST and DEFAULT (as sepparated folders inside)
 
 ##### 02.LvsHC_pseudobulk
-      Notebooks related to the analysis (DEA and GSEA) of the datasets independently using the pseudo-bulk aggregated approach.
+      Notebooks related to the analysis (DEA and GSEA) of the datasets independently using the pseudo-bulk aggregated approach in:
+      DESeq2 and Limma, as sepparated folders.
 
 ##### 03.Integration_Analysis
       Notebooks related to the exploration of the annotation consistency between datasets doign different integration approaches and evaluating them.
 
 ##### 04.Pseudobulk_Merged_Cov_Adjusted
-      Notebooks related to the analysis (DEA and GSEA) of the merged datasets, adjusting or not the covariable and using the pseudo-bulk aggregated approach.
+      Notebooks related to the analysis (DEA and GSEA) of the merged datasets, adjusting or not the covariable and using the pseudo-bulk aggregated approach in:
+      DESeq2 and Limma, as sepparated folders.
 ##### 05.Celltypist_Reannotation
 ###### ---- 01.Reannotation
                Notebooks related to the reannotation of Alkon dataset using celltypist package and Reynolds cell type annotation as a reference.
 ###### ---- 02.Reannotated_LvsHC_Pseudobulk
-               Notebooks related to the analysis (DEA and GSEA) of the reannotated datasets (merged or independently) using the pseudo-bulk aggregated approach.
+               Notebooks related to the analysis (DEA and GSEA) of the reannotated datasets (merged or independently) using the pseudo-bulk aggregated approach in:
+               DESeq2 and Limma, as sepparated folders.
 ##### 06.Report_Figures
       Notebooks related to the generation of plots and figures for comparisons to be included in the paper report.
 
@@ -36,7 +39,9 @@ This repository contains the notebooks for the joint analysis of multiple single
 - Pseudo-bulk differential expression improved robustness and biological relevance of results.
 - Joint batch correction and detailed cell-type reannotation enabled detection of conserved disease signatures across AD datasets.
 - Meaningful insights were derived even from modest, heterogeneous public data.
+- Limited overlap between pseudobulk approaches due to methodologic differences when pathway enrichment analysis are performed.
 - Limitations in pathway databases and clinical metadata were acknowledged, but did not prevent identification of core biological signals.
+- GSVA is a robust alternative method to GSEA for functional enrichment, with limited overlap in the results.
 - The study underscores the power of data reuse for generating new hypotheses without additional data collection.
 
 ##Contact

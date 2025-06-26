@@ -170,7 +170,7 @@ head(C7_t2g) #Immunologic Signatures: Gene sets representing expression signatur
 
 # COMMAND ----------
 
-res_kc <- read.xlsx("/dbfs/mnt/sandbox/TFM_PAULA/merged_AR_results/adjusting_cov_dataset_DEGs/Limma/alkon_limma_results_kc.xlsx")
+res_kc <- read.xlsx("/dbfs/mnt/sandbox/TFM_PAULA/merged_AR_results/adjusting_cov_dataset_DEGs/Limma/limma_results_kc.xlsx")
 
 # COMMAND ----------
 
@@ -272,7 +272,7 @@ res_kc_0.05$Reactome[grepl("R-HSA-6785807", res_kc_0.05$Reactome$ID), ]
 
 # COMMAND ----------
 
-res_tcell <- read.xlsx("/dbfs/mnt/sandbox/TFM_PAULA/merged_AR_results/adjusting_cov_dataset_DEGs/Limma/alkon_limma_results_tcell.xlsx")
+res_tcell <- read.xlsx("/dbfs/mnt/sandbox/TFM_PAULA/merged_AR_results/adjusting_cov_dataset_DEGs/Limma/limma_results_tcell.xlsx")
 
 # COMMAND ----------
 
@@ -347,7 +347,7 @@ write.xlsx(res_tcell_0.05, "/dbfs/mnt/sandbox/TFM_PAULA/merged_AR_results/GSEA/L
 
 # COMMAND ----------
 
-res_macro <- read.xlsx("/dbfs/mnt/sandbox/TFM_PAULA/merged_AR_results/adjusting_cov_dataset_DEGs/Limma/alkon_limma_results_macro.xlsx")
+res_macro <- read.xlsx("/dbfs/mnt/sandbox/TFM_PAULA/merged_AR_results/adjusting_cov_dataset_DEGs/Limma/limma_results_macro.xlsx")
 
 # COMMAND ----------
 
@@ -416,7 +416,7 @@ write.xlsx(res_macro_0.05, "/dbfs/mnt/sandbox/TFM_PAULA/merged_AR_results/GSEA/L
 
 # COMMAND ----------
 
-res_treg <- read.xlsx("/dbfs/mnt/sandbox/TFM_PAULA/merged_AR_results/adjusting_cov_dataset_DEGs/Limma/alkon_limma_results_treg.xlsx")
+res_treg <- read.xlsx("/dbfs/mnt/sandbox/TFM_PAULA/merged_AR_results/adjusting_cov_dataset_DEGs/Limma/limma_results_treg.xlsx")
 
 # COMMAND ----------
 
@@ -490,7 +490,7 @@ write.xlsx(res_treg_0.05, "/dbfs/mnt/sandbox/TFM_PAULA/merged_AR_results/GSEA/Li
 
 # COMMAND ----------
 
-res_fb <- read.xlsx("/dbfs/mnt/sandbox/TFM_PAULA/merged_AR_results/adjusting_cov_dataset_DEGs/Limma/alkon_limma_results_fb.xlsx")
+res_fb <- read.xlsx("/dbfs/mnt/sandbox/TFM_PAULA/merged_AR_results/adjusting_cov_dataset_DEGs/Limma/limma_results_fb.xlsx")
 
 # COMMAND ----------
 
