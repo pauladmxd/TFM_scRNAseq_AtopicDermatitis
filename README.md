@@ -56,8 +56,9 @@ This repository contains the notebooks for the joint analysis of two single-cell
 
 ## Contribution
 Master thesis project performed in Almirall S.A. and Pompeu Fabra University.
+
 Author: Paula Delgado Manzano
 Supervisor: Juan Luis Trincado
 
 ## Contact
-pauladelgadomanzano@gmailcom // paula.delgadomanzano@almirall.com // paula.delgado01@estudiant.upf.edu
+pauladelgadomanzano@gmail.com // paula.delgadomanzano@almirall.com // paula.delgado01@estudiant.upf.edu
