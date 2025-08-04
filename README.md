@@ -46,13 +46,13 @@ This repository contains the notebooks for the joint analysis of two single-cell
 
 ## Key findings
 
-- Pseudo-bulk differential expression improved robustness and biological relevance of results.
-- Joint batch correction and detailed cell-type reannotation enabled detection of conserved disease signatures across AD datasets.
-- Meaningful insights were derived even from modest, heterogeneous public data.
-- Limited overlap between pseudobulk approaches due to methodologic differences when pathway enrichment analysis are performed.
-- Limitations in pathway databases and clinical metadata were acknowledged, but did not prevent identification of core biological signals.
-- GSVA is a robust alternative method to GSEA for functional enrichment, with limited overlap in the results and less number of significant ones.
-- The study underscores the power of data reuse for generating new hypotheses without additional data collection.
+*   Pseudo-bulk differential expression improves robustness and biological relevance of results compared to single-cell level methods.
+*   Integrated analysis (by merge-adjust) and detailed cell-type reannotation enables a better detection of conserved disease signatures across AD datasets.
+*   Limited overlap between pseudobulk approaches (Limma-voom or DESeq2) due to methodologic differences.
+*   Limitations in pathway databases and clinical metadata were acknowledged.
+*   Meaningful insights were derived even from modest, heterogeneous public data.
+*   GSVA is a robust alternative method to GSEA for functional enrichment but with limited overlap in the results and less number of significant ones.
+*   The study underscores the power of data reuse for generating new hypotheses without additional data collection.
 
 ## Contribution
 Master thesis project performed in Almirall S.A. and Pompeu Fabra University.
